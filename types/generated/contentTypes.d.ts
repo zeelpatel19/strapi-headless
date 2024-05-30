@@ -377,6 +377,7 @@ export interface ApiAuthorAuthor extends Schema.CollectionType {
     firstName: Attribute.String & Attribute.Required;
     lastName: Attribute.String;
     imageauthor: Attribute.Media;
+    bio: Attribute.Text & Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
